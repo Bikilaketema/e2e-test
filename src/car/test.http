@@ -1,0 +1,12 @@
+###create car
+POST http://localhost:3000/cars
+Content-Type: application/json
+
+{
+    "model":"test",
+    "color":"blue"
+}
+
+###Get cars
+GET http://localhost:3000/cars
+Content-Type: application/json
